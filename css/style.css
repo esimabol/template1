@@ -1,0 +1,17 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	background-color: #9ba0a3;
+	color: #113e5d;
+	font-family: "Georgia","Times New Roman","Times", serif;
+	font-size: 13px;
+}
+
+.container{
+	max-width: 1366px;
+	margin: 0 auto;
+}
