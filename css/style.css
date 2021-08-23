@@ -4,14 +4,67 @@
 	box-sizing:border-box;
 }
 
+header, nav, section, article, aside, figure, figcaption, hgroup, footer {
+	display: block;
+}
+
+img{
+	max-width: 100%;
+}
+
 body {
+	text-align: center;
 	background-color: #9ba0a3;
 	color: #113e5d;
 	font-family: "Georgia","Times New Roman","Times", serif;
 	font-size: 13px;
+	line-height: 21px;
 }
 
-.container{
-	max-width: 1366px;
+.wrapper{
+	max-width: 1000px;
 	margin: 0 auto;
+	padding: 20px 0 10px 0;
+	text-align: left;
 }
+
+header {	
+	border: 1px solid #496066;
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 250px;
+	position: relative;
+}
+
+header hgroup {
+	line-height: 25px;
+	position: absolute;		
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+header h1 {
+	font-size: 32px;
+	color: #000;
+	font-weight: bold;
+	padding: 0px 0px 10px;	
+}
+
+header h4 {
+	color: #000;
+	font-weight: 400;
+	padding: 0px 0px 10px;	
+}
+
+
+
+/*header p {
+	font-size: 15px;
+	position: absolute;	
+	bottom: 50%;
+	right: 53.5%;
+}*/
+
+
