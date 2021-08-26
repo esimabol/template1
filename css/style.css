@@ -52,19 +52,30 @@ header h1 {
 	padding: 0px 0px 10px;	
 }
 
-header h4 {
+header h2 {
 	color: #000;
+	font-size: 20px;
 	font-weight: 400;
 	padding: 0px 0px 10px;	
 }
 
-
-
-/*header p {
-	font-size: 15px;
-	position: absolute;	
-	bottom: 50%;
-	right: 53.5%;
-}*/
-
+/*navegacion*/
+.no-border{
+	border: none;
+}
+nav ul{
+	padding: 15px 0;
+	margin: 5px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	background-color: #e4e6e5;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 32px;
+	border-right: 2px dotted #868b8f;
+}
 
