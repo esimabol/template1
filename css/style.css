@@ -138,10 +138,21 @@ aside div{
 
 .content p {
 	padding-top:10px;
+	padding-right: 15px;
+	text-align: justify;
 }
 .learn-more-btn {
 	display: block;
 	text-align: left;
 	padding-top: 15px;
 	padding-bottom:15px;
+}
+
+/*Footer*/
+footer {
+	background-color:#ebeeee;
+	text-align: center;
+	border-top: 1px solid #cacaca;
+	padding-top: 60px;
+	padding-bottom: 30px;
 }
