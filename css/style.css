@@ -124,3 +124,24 @@ aside div{
 	text-align: left;
 	padding:10px;
 }
+/*Contenido*/
+.content {
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:25px;
+}
+.content h2 {
+	font-size: 25px;
+	padding-bottom:13px;
+	border-bottom: 1.5px solid #cacaca;	
+}
+
+.content p {
+	padding-top:10px;
+}
+.learn-more-btn {
+	display: block;
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom:15px;
+}
