@@ -138,10 +138,61 @@ aside div{
 
 .content p {
 	padding-top:10px;
+	padding-right: 15px;
+	text-align: justify;
 }
 .learn-more-btn {
 	display: block;
 	text-align: left;
 	padding-top: 15px;
 	padding-bottom:15px;
+}
+
+/*Footer*/
+footer {
+	background-color:#ebeeee;
+	text-align: center;
+	border-top: 1px solid #cacaca;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+/*Responsive*/
+
+@media(max-width: 750px){
+	header h1{
+		font-size: 30px;
+	}
+
+	header h2 {
+		display: none;
+	}
+	nav ul{
+		display: block;
+
+	}
+	nav ul li {
+		border:none;
+		width:24%;
+	}
+	nav ul li:nth-child(even){	
+		display: none;			
+		
+	}
+	
+	main {
+		flex-direction: column-reverse;
+	}
+	aside {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+@media(max-width:500px){
+	header h1{
+		font-size: 25px;
+	}
+
+	
 }
