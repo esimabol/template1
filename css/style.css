@@ -159,7 +159,7 @@ footer {
 
 /*Responsive*/
 
-@media(max-width: 750px){
+@media(max-width: 1000px){
 	header h1{
 		font-size: 30px;
 	}
@@ -189,7 +189,7 @@ footer {
 	}
 }
 
-@media(max-width:500px){
+@media(max-width:750px){
 	header h1{
 		font-size: 25px;
 	}
